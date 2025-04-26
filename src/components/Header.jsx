@@ -4,7 +4,7 @@ import logo from "../assets/Cofeeku.svg";
 const Header = () => {
   return (
     <header className="fixed top-0 left-0 w-full bg-transparent z-30">
-      <div className="container mx-auto flex justify-between items-center px-6 py-4">
+      <div className="container mx-auto flex justify-between items-center px-6 py-4 sm:px-8 md:px-12 lg:px-16">
         <img src={logo} alt="Cofeeku Logo" className="h-10" />
         <nav className="hidden md:flex space-x-8 font-semibold text-white">
           <a href="#hero" className="hover:text-yellow-500 transition">

@@ -1,7 +1,9 @@
 import React from "react";
 import CatalogueItem from "./CataloqueItem.jsx";
 import coffeeImage from "../assets/coffee_image.png";
-
+import Rectangle7 from "../assets/Rectangle 7.png";
+import Rectangle9 from "../assets/Rectangle 9.png";
+import Rectangle11 from "../assets/Rectangle 11.png";
 const Catalogue = () => {
   const items = [
     {
@@ -9,21 +11,21 @@ const Catalogue = () => {
       name: "Cappuccino",
       description: "Coffee 50% | Milk 50%",
       price: "8.50",
-      image: coffeeImage,
+      image: Rectangle7,
     },
     {
       id: 2,
       name: "Latte",
       description: "Coffee 30% | Milk 70%",
       price: "7.50",
-      image: coffeeImage,
+      image: Rectangle9,
     },
     {
       id: 3,
       name: "Espresso",
       description: "Coffee 100%",
       price: "5.00",
-      image: coffeeImage,
+      image: Rectangle11,
     },
   ];
 

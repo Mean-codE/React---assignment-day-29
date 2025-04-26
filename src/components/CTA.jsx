@@ -18,11 +18,7 @@ const CTA = () => {
           </button>
         </div>
         <div className="md:w-1/2 flex justify-center">
-          <img
-            src={cupImage}
-            alt="Coffee Cup"
-            className="w-64 h-64 object-cover rounded-full"
-          />
+          <img src={cupImage} alt="Coffee Cup" className="w-64 h-auto  " />
         </div>
       </div>
     </section>
